@@ -18,3 +18,8 @@ Tiny Journey is a dynamic, AI-powered web tool designed to help users create per
 Tiny Journey is a client-side single page application written in TypeScript. It uses the OpenAI API for generating quests and hints, the browser Geolocation API for location, and localStorage for persistence. Reverse geocoding is handled with the Nominatim service.
 
 In a production deployment, calls to the OpenAI API should be proxied through a backend service to keep the API key secure.
+
+## Setup
+1. Clone the repository and open `app.js`.
+2. Replace the empty `OPENAI_API_KEY` string with your OpenAI API key.
+3. Serve `index.html` via any static file server and open it in your browser.
